@@ -1,0 +1,12 @@
+# Redirects all traffic to /usajobsgpt
+[[redirects]]
+  from = "https://cresswell.io/*"
+  to = "https://cresswell.io/usajobsgpt/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.cresswell.io/*"
+  to = "https://cresswell.io/usajobsgpt/:splat"
+  status = 301
+  force = true
